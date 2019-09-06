@@ -1,0 +1,22 @@
+{
+  "name": "coordinates-transformer",
+  "version": "0.1.0",
+  "description": "Transform coordinates between projections",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "prepublish": "npm run build"
+  },
+  "author": "Mats Byrkjeland <matsbyr@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.6.0"
+  },
+  "dependencies": {
+    "ol": "^5.3.3",
+    "proj4": "^2.5.0"
+  }
+}
